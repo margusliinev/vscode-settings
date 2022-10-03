@@ -1,7 +1,10 @@
 {
+    "breadcrumbs.enabled": false,
+    "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontSize": 16,
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false
 }
