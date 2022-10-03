@@ -6,5 +6,12 @@
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontSize": 16,
     "editor.fontSize": 16,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 1000,
+    "prettier.tabWidth": 4
 }
