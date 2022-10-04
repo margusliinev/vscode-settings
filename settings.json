@@ -12,6 +12,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "prettier.singleQuote": true,
+    "prettier.semi": false,
     "prettier.printWidth": 1000,
     "prettier.tabWidth": 4
 }
