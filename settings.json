@@ -11,8 +11,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "prettier.singleQuote": true,
-    "prettier.semi": false,
+    "prettier.semi": true,
     "prettier.printWidth": 1000,
     "prettier.tabWidth": 4
 }
