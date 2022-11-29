@@ -15,5 +15,8 @@
     "prettier.singleQuote": true,
     "prettier.semi": true,
     "prettier.printWidth": 1000,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "fiveServer.highlight": false,
+    "fiveServer.navigate": false,
+    "fiveServer.openTerminal": false
 }
