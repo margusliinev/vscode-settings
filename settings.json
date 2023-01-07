@@ -3,6 +3,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
+    "workbench.editor.untitled.hint": "hidden",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontSize": 16,
     "editor.fontSize": 16,
