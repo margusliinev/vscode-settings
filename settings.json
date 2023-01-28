@@ -1,11 +1,10 @@
 {
-    "breadcrumbs.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 16,
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
     "workbench.editor.untitled.hint": "hidden",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.fontSize": 16,
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.cursorBlinking": "expand",
@@ -14,10 +13,13 @@
     "editor.formatOnSave": true,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
     "prettier.semi": true,
     "prettier.printWidth": 1000,
     "prettier.tabWidth": 4,
-    "fiveServer.highlight": false,
-    "fiveServer.navigate": false,
-    "fiveServer.openTerminal": false
+    "breadcrumbs.enabled": false,
+    "reactSnippets.settings.importReactOnTop": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
