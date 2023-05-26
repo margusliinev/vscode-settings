@@ -16,9 +16,11 @@
     "prettier.semi": true,
     "prettier.tabWidth": 4,
     "prettier.printWidth": 200,
-    "breadcrumbs.enabled": false,
     "reactSnippets.settings.importReactOnTop": false,
+    "errorLens.messageBackgroundMode": "none",
+    "breadcrumbs.enabled": false,
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
     }
 }

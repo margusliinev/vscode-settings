@@ -18,5 +18,13 @@
         "key": "ctrl+shift+enter",
         "command": "-editor.action.insertLineBefore",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
     }
 ]
