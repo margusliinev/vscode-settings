@@ -1,26 +1,47 @@
 {
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.fontSize": 16,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.untitled.hint": "hidden",
+    // Workbench
     "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
-    "editor.fontSize": 16,
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
+
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.fontSize": 16,
+
+    // Editor
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 3,
+    "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "prettier.singleQuote": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.semi": true,
-    "prettier.tabWidth": 4,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    // Prettier
     "prettier.printWidth": 200,
-    "reactSnippets.settings.importReactOnTop": false,
+    "prettier.tabWidth": 4,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.semi": true,
+
+    // ESlint
+    "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
+
+    // Code Spell Checker
+    "cSpell.userWords": ["esbenp", "reduxjs", "PGHOST", "PGDATABASE", "PGPORT", "PGUSER", "PGPASSWORD"],
+
+    // Error Lens
     "errorLens.messageBackgroundMode": "none",
-    "breadcrumbs.enabled": false,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "typescript": "typescriptreact"
-    }
+
+    // Thunder Client
+    "thunder-client.indentSize": 4
 }
