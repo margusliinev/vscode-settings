@@ -16,6 +16,7 @@
     // Editor
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.inlineSuggest.enabled": true,
     "editor.cursorBlinking": "expand",
     "editor.cursorWidth": 3,
     "editor.fontSize": 16,
