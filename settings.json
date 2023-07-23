@@ -1,5 +1,12 @@
 {
+    // NB! Also hide all default snippets except try-catch to avoid conflicts with Copilot and other extensions
+
+    // Explorer
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
     // Workbench
+    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.editor.enablePreview": false,
@@ -26,22 +33,59 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
 
     // Prettier
-    "prettier.printWidth": 200,
+    "prettier.printWidth": 150,
     "prettier.tabWidth": 4,
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.semi": true,
 
+    // TailwindCSS
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "css": "css"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss",
+        ".env*": "dotenv"
+    },
+
     // ESlint
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
 
     // Code Spell Checker
-    "cSpell.userWords": ["esbenp", "reduxjs", "PGHOST", "PGDATABASE", "PGPORT", "PGUSER", "PGPASSWORD"],
+    "cSpell.userWords": [
+        "Autocloaking",
+        "esbenp",
+        "pagedown",
+        "pageup",
+        "PGDATABASE",
+        "PGHOST",
+        "PGPASSWORD",
+        "PGPORT",
+        "PGUSER",
+        "reduxjs",
+        "tailwindcss",
+        "vscodesettings"
+    ],
 
     // Error Lens
     "errorLens.messageBackgroundMode": "none",
+
+    // Dotenv
+    "dotenv.enableAutocloaking": false,
+
+    // Language specific settings
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
 
     // Thunder Client
     "thunder-client.indentSize": 4
