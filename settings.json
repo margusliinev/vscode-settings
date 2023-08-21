@@ -58,25 +58,6 @@
     // ESlint
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
 
-    // Code Spell Checker
-    "cSpell.userWords": [
-        "cloudinary",
-        "clsx",
-        "cmdk",
-        "datasources",
-        "esbenp",
-        "hookform",
-        "lucide",
-        "nestjs",
-        "pagedown",
-        "pageup",
-        "reduxjs",
-        "Shadcn",
-        "tailwindcss",
-        "tanstack",
-        "vsicons"
-    ],
-
     // Error Lens
     "errorLens.messageBackgroundMode": "none",
 
@@ -88,11 +69,18 @@
     },
     "files.associations": {
         "*.css": "tailwindcss",
-        "*.env": "dotenv"
+        "*.postcss": "tailwindcss",
+        ".env": "dotenv"
     },
 
     // Prisma
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
     }
 }
