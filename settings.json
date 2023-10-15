@@ -5,10 +5,20 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
 
+    // File Associations
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.postcss": "css",
+        ".env": "dotenv"
+    },
+    "files.exclude": {
+        "**/.cache": true
+    },
+
     // Workbench
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.empty.hint": "hidden",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
 
@@ -61,26 +71,20 @@
     // Error Lens
     "errorLens.messageBackgroundMode": "none",
 
-    // TailwindCSS
+    // Tailwind
     "tailwindCSS.includeLanguages": {
         "html": "html",
         "javascript": "javascript",
         "css": "css"
-    },
-    "files.associations": {
-        "*.css": "tailwindcss",
-        "*.postcss": "tailwindcss",
-        ".env": "dotenv"
     },
 
     // Prisma
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
     },
+
+    // Github Copilot
     "github.copilot.enable": {
-        "*": true,
-        "plaintext": true,
-        "markdown": false,
-        "scminput": false
+        "*": true
     }
 }
