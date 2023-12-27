@@ -5,14 +5,14 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
 
+    // Extensions
+    "extensions.ignoreRecommendations": true,
+
     // File Associations
     "files.associations": {
         "*.css": "tailwindcss",
         "*.postcss": "css",
         ".env": "dotenv"
-    },
-    "files.exclude": {
-        "**/.cache": true
     },
 
     // Workbench
@@ -45,7 +45,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": "explicit"
     },
     "editor.quickSuggestions": {
         "strings": true
@@ -55,11 +55,11 @@
     },
 
     // Language specific settings
-    "typescript.updateImportsOnFileMove.enabled": "always",
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
 
     // Prettier
-    "prettier.printWidth": 150,
+    "prettier.printWidth": 200,
     "prettier.tabWidth": 4,
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
@@ -76,11 +76,6 @@
         "html": "html",
         "javascript": "javascript",
         "css": "css"
-    },
-
-    // Prisma
-    "[prisma]": {
-        "editor.defaultFormatter": "Prisma.prisma"
     },
 
     // Github Copilot
