@@ -18,8 +18,8 @@
     // Workbench
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.editor.empty.hint": "hidden",
     "workbench.editor.enablePreview": false,
+    "workbench.editor.empty.hint": "hidden",
     "workbench.startupEditor": "none",
 
     // Breadcrumbs
@@ -47,11 +47,11 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
-    "editor.quickSuggestions": {
-        "strings": true
-    },
     "editor.tokenColorCustomizations": {
         "textMateRules": []
+    },
+    "editor.quickSuggestions": {
+        "strings": true
     },
 
     // Language specific settings
@@ -74,8 +74,8 @@
     // Tailwind
     "tailwindCSS.includeLanguages": {
         "html": "html",
-        "javascript": "javascript",
-        "css": "css"
+        "css": "css",
+        "javascript": "javascript"
     },
 
     // Github Copilot
