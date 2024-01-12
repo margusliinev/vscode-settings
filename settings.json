@@ -1,9 +1,14 @@
 {
     // NB! Also hide all default snippets except try-catch to avoid conflicts with Copilot and other extensions
 
+    // Window
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": false,
+
     // Explorer
-    "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
 
     // Extensions
     "extensions.ignoreRecommendations": true,
@@ -20,6 +25,7 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
+    "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
 
     // Breadcrumbs
@@ -38,12 +44,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.inlineSuggest.enabled": true,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorWidth": 3,
-    "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 3,
+    "editor.fontSize": 16,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
