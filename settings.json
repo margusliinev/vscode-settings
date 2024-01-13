@@ -2,16 +2,12 @@
     // NB! Also hide all default snippets except try-catch to avoid conflicts with Copilot and other extensions
 
     // Window
-    "window.titleBarStyle": "custom",
     "window.commandCenter": false,
 
     // Explorer
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
-
-    // Extensions
-    "extensions.ignoreRecommendations": true,
 
     // File Associations
     "files.associations": {
@@ -31,12 +27,12 @@
     // Breadcrumbs
     "breadcrumbs.enabled": false,
 
-    // VSCode Icons
-    "vsicons.presets.foldersAllDefaultIcon": true,
-    "vsicons.dontShowNewVersionMessage": true,
+    // Language specific settings
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
 
     // Terminal
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
     "terminal.integrated.env.windows": {},
     "terminal.integrated.fontSize": 16,
 
@@ -60,9 +56,16 @@
         "strings": true
     },
 
-    // Language specific settings
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
+    // VSCode Icons
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "vsicons.dontShowNewVersionMessage": true,
+
+    // Tailwind
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "css": "css",
+        "javascript": "javascript"
+    },
 
     // Prettier
     "prettier.printWidth": 200,
@@ -76,13 +79,6 @@
 
     // Error Lens
     "errorLens.messageBackgroundMode": "none",
-
-    // Tailwind
-    "tailwindCSS.includeLanguages": {
-        "html": "html",
-        "css": "css",
-        "javascript": "javascript"
-    },
 
     // Github Copilot
     "github.copilot.enable": {
