@@ -4,6 +4,9 @@
     // Window
     "window.commandCenter": false,
 
+    // Extensions
+    "extensions.ignoreRecommendations": true,
+
     // Explorer
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
@@ -32,11 +35,14 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
 
     // Terminal
-    "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.env.windows": {},
     "terminal.integrated.fontSize": 16,
 
     // Editor
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": "always" },
+    "editor.tokenColorCustomizations": { "textMateRules": [] },
+    "editor.quickSuggestions": { "strings": true },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.inlineSuggest.enabled": true,
@@ -46,15 +52,6 @@
     "editor.cursorBlinking": "expand",
     "editor.cursorWidth": 3,
     "editor.fontSize": 16,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": []
-    },
-    "editor.quickSuggestions": {
-        "strings": true
-    },
 
     // VSCode Icons
     "vsicons.presets.foldersAllDefaultIcon": true,
