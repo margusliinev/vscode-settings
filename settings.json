@@ -57,6 +57,11 @@
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.dontShowNewVersionMessage": true,
 
+    // Markdown Preview Enhanced
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+    "markdown-preview-enhanced.scrollSync": false,
+
     // Tailwind
     "tailwindCSS.includeLanguages": {
         "html": "html",
