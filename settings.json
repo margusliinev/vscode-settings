@@ -33,6 +33,10 @@
     // Language specific settings
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
 
     // Terminal
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -57,10 +61,10 @@
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.dontShowNewVersionMessage": true,
 
-    // Markdown Preview Enhanced
-    "markdown-preview-enhanced.previewTheme": "one-dark.css",
-    "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
-    "markdown-preview-enhanced.scrollSync": false,
+    // Thunder Client
+    "thunder-client.sidebar.defaultTab": "Collections",
+    "thunder-client.defaultURL": "http://localhost:5173",
+    "thunder-client.indentSize": 4,
 
     // Tailwind
     "tailwindCSS.includeLanguages": {
@@ -69,12 +73,18 @@
         "javascript": "javascript"
     },
 
+    // Markdown Preview Enhanced
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+    "markdown-preview-enhanced.scrollSync": false,
+
     // Prettier
     "prettier.printWidth": 200,
     "prettier.tabWidth": 4,
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
-    "prettier.semi": true,
+    "prettier.semi": false,
+    "prettier.trailingComma": "none",
 
     // ESlint
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
