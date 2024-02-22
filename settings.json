@@ -1,7 +1,9 @@
 {
-    // NB! Also hide all default snippets except try-catch to avoid conflicts with Copilot and other extensions
+    // Security
+    "security.workspace.trust.enabled": true,
 
     // Window
+    "window.titleSeparator": " / ",
     "window.commandCenter": false,
 
     // Extensions
@@ -16,14 +18,14 @@
     "files.associations": {
         "*.css": "tailwindcss",
         "*.postcss": "postcss",
-        "*.env": "dotenv"
+        "*.env": "env"
     },
 
     // Workbench
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.iconTheme": "vscode-icons",
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
 
@@ -31,12 +33,10 @@
     "breadcrumbs.enabled": false,
 
     // Language specific settings
+    "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "svelte.enable-ts-plugin": true,
-    "[svelte]": {
-        "editor.defaultFormatter": "svelte.svelte-vscode"
-    },
 
     // Terminal
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -46,15 +46,17 @@
     // Editor
     "editor.codeActionsOnSave": { "source.fixAll.eslint": "always" },
     "editor.tokenColorCustomizations": { "textMateRules": [] },
-    "editor.quickSuggestions": { "strings": true },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.quickSuggestions": { "strings": true },
     "editor.inlineSuggest.enabled": true,
+    "editor.stickyScroll.enabled": false,
     "editor.minimap.enabled": false,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.cursorBlinking": "expand",
     "editor.cursorWidth": 3,
+    "editor.wordWrap": "on",
     "editor.fontSize": 16,
 
     // VSCode Icons
@@ -72,19 +74,20 @@
         "css": "css",
         "javascript": "javascript"
     },
+    "tailwindCSS.experimental.classRegex": ["(?:const|let|var)\\s+[\\w$_][_\\w\\d]*\\s*=\\s*['\\\"](.*?)['\\\"]"],
 
     // Markdown Preview Enhanced
-    "markdown-preview-enhanced.previewTheme": "one-dark.css",
     "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
     "markdown-preview-enhanced.scrollSync": false,
 
     // Prettier
-    "prettier.printWidth": 200,
-    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.semi": false,
-    "prettier.trailingComma": "none",
+    "prettier.printWidth": 200,
+    "prettier.tabWidth": 4,
 
     // ESlint
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
@@ -93,7 +96,5 @@
     "errorLens.messageBackgroundMode": "none",
 
     // Github Copilot
-    "github.copilot.enable": {
-        "*": true
-    }
+    "github.copilot.enable": { "*": true }
 }
