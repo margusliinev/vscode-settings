@@ -18,7 +18,7 @@
     "files.associations": {
         "*.css": "tailwindcss",
         "*.postcss": "postcss",
-        "*.env": "env"
+        "*.env": "dotenv"
     },
 
     // Workbench
