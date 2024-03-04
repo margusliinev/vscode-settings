@@ -39,7 +39,6 @@
     "svelte.enable-ts-plugin": true,
 
     // Terminal
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.env.windows": {},
     "terminal.integrated.fontSize": 16,
 
