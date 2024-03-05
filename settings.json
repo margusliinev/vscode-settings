@@ -2,10 +2,6 @@
     // Security
     "security.workspace.trust.enabled": true,
 
-    // Window
-    "window.titleSeparator": " / ",
-    "window.commandCenter": false,
-
     // Extensions
     "extensions.ignoreRecommendations": true,
 
@@ -13,6 +9,12 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
+
+    // Window
+    "window.menuBarVisibility": "hidden",
 
     // File Associations
     "files.associations": {
@@ -28,9 +30,6 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
-
-    // Breadcrumbs
-    "breadcrumbs.enabled": false,
 
     // Language specific settings
     "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
