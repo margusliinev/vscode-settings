@@ -26,7 +26,6 @@
     // Workbench
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
-    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
