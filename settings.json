@@ -87,7 +87,7 @@
     "prettier.trailingComma": "none",
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
-    "prettier.semi": false,
+    "prettier.semi": true,
     "prettier.printWidth": 200,
     "prettier.tabWidth": 4,
 
