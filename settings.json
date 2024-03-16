@@ -67,7 +67,7 @@
 
     // Thunder Client
     "thunder-client.sidebar.defaultTab": "Collections",
-    "thunder-client.defaultURL": "http://localhost:5173",
+    "thunder-client.defaultURL": "http://localhost:5000",
     "thunder-client.indentSize": 4,
 
     // Tailwind
