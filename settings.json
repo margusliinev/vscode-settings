@@ -34,6 +34,8 @@
 
     // Language specific settings
     "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
+    "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+    "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "svelte.enable-ts-plugin": true,
@@ -48,9 +50,9 @@
     // Editor
     "editor.codeActionsOnSave": { "source.fixAll.eslint": "always" },
     "editor.tokenColorCustomizations": { "textMateRules": [] },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.quickSuggestions": { "strings": true },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.inlineSuggest.enabled": true,
     "editor.stickyScroll.enabled": false,
     "editor.minimap.enabled": false,
@@ -66,7 +68,7 @@
     "vsicons.dontShowNewVersionMessage": true,
 
     // Thunder Client
-    "thunder-client.sidebar.defaultTab": "Collections",
+    "thunder-client.sidebar.defaultTab": "Activity",
     "thunder-client.defaultURL": "http://localhost:5000",
     "thunder-client.indentSize": 4,
 
@@ -93,9 +95,6 @@
 
     // ESlint
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-
-    // Error Lens
-    "errorLens.messageBackgroundMode": "none",
 
     // Github Copilot
     "github.copilot.enable": { "*": true }
