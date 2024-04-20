@@ -20,9 +20,9 @@
 
     // File Associations
     "files.associations": {
-        "*.css": "tailwindcss",
-        "*.postcss": "postcss",
-        "*.env": "dotenv"
+        ".css*": "tailwindcss",
+        ".postcss*": "postcss",
+        ".env*": "dotenv"
     },
 
     // Workbench
@@ -34,8 +34,6 @@
 
     // Language specific settings
     "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
-    "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
-    "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "svelte.enable-ts-plugin": true,
@@ -48,11 +46,10 @@
     "terminal.integrated.fontSize": 16,
 
     // Editor
-    "editor.codeActionsOnSave": { "source.fixAll.eslint": "always" },
-    "editor.tokenColorCustomizations": { "textMateRules": [] },
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.quickSuggestions": { "strings": true },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.inlineSuggest.enabled": true,
     "editor.stickyScroll.enabled": false,
     "editor.minimap.enabled": false,
@@ -68,7 +65,6 @@
     "vsicons.dontShowNewVersionMessage": true,
 
     // Thunder Client
-    "thunder-client.sidebar.defaultTab": "Activity",
     "thunder-client.defaultURL": "http://localhost:5000",
     "thunder-client.indentSize": 4,
 
@@ -79,11 +75,6 @@
         "javascript": "javascript"
     },
     "tailwindCSS.experimental.classRegex": ["(?:const|let|var)\\s+[\\w$_][_\\w\\d]*\\s*=\\s*['\\\"](.*?)['\\\"]"],
-
-    // Markdown Preview Enhanced
-    "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
-    "markdown-preview-enhanced.previewTheme": "one-dark.css",
-    "markdown-preview-enhanced.scrollSync": false,
 
     // Prettier
     "prettier.trailingComma": "none",
