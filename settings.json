@@ -34,6 +34,8 @@
 
     // Language specific settings
     "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
+    "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+    "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "svelte.enable-ts-plugin": true,
@@ -65,7 +67,7 @@
     "vsicons.dontShowNewVersionMessage": true,
 
     // Thunder Client
-    "thunder-client.defaultURL": "http://localhost:5000",
+    "thunder-client.defaultURL": "http://localhost:3000",
     "thunder-client.indentSize": 4,
 
     // Tailwind
@@ -88,5 +90,6 @@
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
 
     // Github Copilot
+    "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.enable": { "*": true }
 }
