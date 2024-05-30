@@ -34,8 +34,6 @@
 
     // Language specific settings
     "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
-    "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
-    "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "svelte.enable-ts-plugin": true,
@@ -55,6 +53,7 @@
     "editor.inlineSuggest.enabled": true,
     "editor.stickyScroll.enabled": false,
     "editor.minimap.enabled": false,
+    "editor.linkedEditing": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.cursorBlinking": "expand",
