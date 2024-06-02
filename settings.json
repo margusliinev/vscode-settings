@@ -29,11 +29,13 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
 
     // Language specific settings
     "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
+    "[go]": { "editor.defaultFormatter": "golang.go" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "svelte.enable-ts-plugin": true,
