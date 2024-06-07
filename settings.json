@@ -12,7 +12,7 @@
 
     // Window
     "window.menuBarVisibility": "hidden",
-    "window.zoomLevel": 0,
+    "window.commandCenter": false,
 
     // Files
     "files.insertFinalNewline": true,
