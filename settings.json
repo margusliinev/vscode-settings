@@ -40,11 +40,7 @@
     "terminal.integrated.fontSize": 16,
 
     // Editor
-    "editor.codeActionsOnSave": {
-        "source.addMissingImports": "always",
-        "source.organizeImports": "always",
-        "source.fixAll.eslint": "always"
-    },
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.quickSuggestions": { "strings": true },
