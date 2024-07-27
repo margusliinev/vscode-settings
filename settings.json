@@ -37,6 +37,13 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
 
+    // Terminal
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.fontSize": 14,
+
     // Editor
     "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -48,9 +55,12 @@
     "editor.linkedEditing": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.cursorBlinking": "expand",
+    "editor.cursorBlinking": "solid",
     "editor.cursorWidth": 2,
     "editor.wordWrap": "on",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
 
     // VSCode Icons
     "vsicons.presets.foldersAllDefaultIcon": true,
