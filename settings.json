@@ -38,10 +38,10 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
 
     // Terminal
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontSize": 14,
 
     // Editor
@@ -57,10 +57,10 @@
     "editor.formatOnSave": true,
     "editor.cursorBlinking": "solid",
     "editor.cursorWidth": 2,
-    "editor.wordWrap": "on",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
+    "editor.wordWrap": "on",
 
     // VSCode Icons
     "vsicons.presets.foldersAllDefaultIcon": true,
