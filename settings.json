@@ -5,6 +5,9 @@
     // Extensions
     "extensions.ignoreRecommendations": true,
 
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
+
     // Explorer
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
@@ -23,15 +26,13 @@
         ".env*": "dotenv"
     },
 
-    // Breadcrumbs
-    "breadcrumbs.enabled": false,
-
     // Workbench
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
+    "workbench.reduceMotion": "on",
 
     // Language specific settings
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -41,7 +42,6 @@
     "terminal.integrated.cursorBlinking": false,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
-    "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontSize": 14,
 
     // Editor
@@ -57,10 +57,8 @@
     "editor.formatOnSave": true,
     "editor.cursorBlinking": "solid",
     "editor.cursorWidth": 2,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 14,
     "editor.wordWrap": "on",
+    "editor.fontSize": 14,
 
     // VSCode Icons
     "vsicons.presets.foldersAllDefaultIcon": true,
