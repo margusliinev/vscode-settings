@@ -10,20 +10,27 @@
 
     // Explorer
     "explorer.confirmDragAndDrop": false,
-    "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
 
     // Window
     "window.confirmSaveUntitledWorkspace": false,
-    "window.menuBarVisibility": "hidden",
     "window.commandCenter": false,
+    "window.menuBarVisibility": "hidden",
 
     // Files
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.php": "php",
+        "artisan": "php"
+    },
 
     // Workbench
-    "workbench.editor.enablePreview": false,
     "workbench.statusBar.visible": false,
+    "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
@@ -31,38 +38,58 @@
     "workbench.reduceMotion": "on",
 
     // Language specific settings
-    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
+    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "javascript.suggest.autoImports": true,
+    "php.suggest.basic": false,
+
+    // Search
+    "search.exclude": {
+        "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
+        "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
+        "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
+        "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
+        "**/bootstrap/cache/**": true,
+        "**/node_modules/**": true,
+        "**/storage/**": true,
+        "**/tests/**": true,
+        "**/build/**": true,
+        "**/.env": true
+    },
 
     // Terminal
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontFamily": "JetBrains Mono",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.cursorBlinking": false,
     "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": false,
     "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.fontSize": 14,
 
     // Editor
-    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit", "source.organizeImports": "explicit" },
     "editor.quickSuggestions": { "strings": true },
-    "editor.inlineSuggest.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.cursorBlinking": "solid",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.renderControlCharacters": false,
     "editor.stickyScroll.enabled": false,
     "editor.guides.indentation": false,
     "editor.minimap.enabled": false,
     "editor.linkedEditing": true,
+    "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.glyphMargin": false,
-    "editor.renderLineHighlight": "none",
-    "editor.renderWhitespace": "none",
-    "editor.cursorBlinking": "solid",
-    "editor.lineNumbers": "off",
-    "editor.wordWrap": "on",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.lineHeight": 1.6,
     "editor.cursorWidth": 2,
     "editor.fontSize": 14,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
 
     // VSCode Icons
     "vsicons.presets.foldersAllDefaultIcon": true,
