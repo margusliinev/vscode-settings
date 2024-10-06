@@ -15,16 +15,11 @@
 
     // Window
     "window.confirmSaveUntitledWorkspace": false,
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "hidden",
     "window.commandCenter": false,
 
     // Files
     "files.insertFinalNewline": true,
-    "files.associations": {
-        ".css*": "tailwindcss",
-        ".postcss*": "postcss",
-        ".env*": "dotenv"
-    },
 
     // Workbench
     "workbench.editor.enablePreview": false,
@@ -40,10 +35,11 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
 
     // Terminal
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.cursorBlinking": false,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
-    "terminal.integrated.fontSize": 14,
 
     // Editor
     "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
@@ -52,6 +48,7 @@
     "editor.quickSuggestions": { "strings": true },
     "editor.inlineSuggest.enabled": true,
     "editor.stickyScroll.enabled": false,
+    "editor.guides.indentation": false,
     "editor.minimap.enabled": false,
     "editor.linkedEditing": true,
     "editor.formatOnPaste": true,
@@ -64,21 +61,12 @@
     "editor.wordWrap": "on",
     "editor.cursorWidth": 2,
     "editor.fontSize": 14,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
 
     // VSCode Icons
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.dontShowNewVersionMessage": true,
-
-    // Thunder Client
-    "thunder-client.defaultURL": "http://localhost:3000",
-    "thunder-client.indentSize": 4,
-
-    // Tailwind
-    "tailwindCSS.includeLanguages": {
-        "html": "html",
-        "css": "css",
-        "javascript": "javascript"
-    },
 
     // Prettier
     "prettier.trailingComma": "none",
