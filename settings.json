@@ -45,7 +45,6 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.suggest.autoImports": true,
     "javascript.suggest.autoImports": true,
-    "php.suggest.basic": false,
 
     // Search
     "search.exclude": {
@@ -62,7 +61,6 @@
     },
 
     // Terminal
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": false,
@@ -77,6 +75,7 @@
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "solid",
+    "editor.wordWrap": "on",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderControlCharacters": false,
     "editor.stickyScroll.enabled": false,
