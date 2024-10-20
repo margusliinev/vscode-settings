@@ -24,41 +24,22 @@
     "files.insertFinalNewline": true,
     "files.associations": {
         "*.css": "tailwindcss",
-        "*.php": "php",
-        "artisan": "php"
+        "*.php": "php"
     },
 
     // Workbench
     "workbench.statusBar.visible": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
     "workbench.reduceMotion": "on",
 
     // Language specific settings
     "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
-    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "typescript.updateImportsOnFileMove.enabled": "always",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.suggest.autoImports": true,
-    "javascript.suggest.autoImports": true,
-
-    // Search
-    "search.exclude": {
-        "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
-        "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
-        "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
-        "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
-        "**/bootstrap/cache/**": true,
-        "**/node_modules/**": true,
-        "**/storage/**": true,
-        "**/tests/**": true,
-        "**/build/**": true,
-        "**/.env": true
-    },
 
     // Terminal
     "terminal.integrated.fontFamily": "JetBrains Mono",
@@ -68,7 +49,6 @@
     "terminal.integrated.fontSize": 14,
 
     // Editor
-    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit", "source.organizeImports": "explicit" },
     "editor.quickSuggestions": { "strings": true },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "JetBrains Mono",
@@ -85,17 +65,12 @@
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.quickSuggestionsDelay": 0,
     "editor.lineHeight": 1.6,
     "editor.cursorWidth": 2,
     "editor.fontSize": 14,
 
-    // VSCode Icons
-    "vsicons.presets.foldersAllDefaultIcon": true,
-    "vsicons.dontShowNewVersionMessage": true,
-
     // Prettier
-    "prettier.trailingComma": "none",
+    "prettier.trailingComma": "all",
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.semi": true,
