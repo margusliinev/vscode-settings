@@ -1,4 +1,7 @@
 {
+    // Window
+    "window.confirmSaveUntitledWorkspace": false,
+
     // Security
     "security.workspace.trust.enabled": true,
 
@@ -8,25 +11,18 @@
     // Breadcrumbs
     "breadcrumbs.enabled": false,
 
-    // Window
-    "window.confirmSaveUntitledWorkspace": false,
-    "window.menuBarVisibility": "hidden",
-
     // Explorer
     "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
 
     // Files
     "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
-    "files.associations": {
-        "*.css": "tailwindcss",
-        "*.php": "php"
-    },
+    "files.trimFinalNewlines": true,
 
     // Workbench
+    "workbench.tips.enabled": false,
     "workbench.statusBar.visible": false,
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",
@@ -40,12 +36,14 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": false,
     "terminal.integrated.cursorWidth": 2,
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
 
     // Editor
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "JetBrains Mono",
     "editor.renderLineHighlight": "none",
+    "editor.lightbulb.enabled": "off",
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
@@ -60,10 +58,9 @@
     "editor.formatOnSave": true,
     "editor.lineHeight": 1.6,
     "editor.cursorWidth": 2,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
 
     // Language Settings
-    "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
 

@@ -5,7 +5,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+enter",
+        "key": "cmd+enter",
         "command": "-editor.action.insertLineAfter",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -15,70 +15,86 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+enter",
+        "key": "shift+cmd+enter",
         "command": "-editor.action.insertLineBefore",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+q",
+        "key": "cmd+q",
         "command": "workbench.action.previousEditor"
     },
     {
-        "key": "ctrl+pageup",
+        "key": "shift+cmd+[",
         "command": "-workbench.action.previousEditor"
     },
     {
-        "key": "alt+e",
+        "key": "alt+cmd+left",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "cmd+e",
         "command": "workbench.action.nextEditor"
     },
     {
-        "key": "ctrl+pagedown",
+        "key": "shift+cmd+]",
         "command": "-workbench.action.nextEditor"
     },
     {
-        "key": "alt+w",
-        "command": "workbench.action.closeActiveEditor"
+        "key": "alt+cmd+right",
+        "command": "-workbench.action.nextEditor"
     },
     {
-        "key": "ctrl+w",
-        "command": "-workbench.action.closeActiveEditor"
+        "key": "cmd+.",
+        "command": "workbench.action.openGlobalKeybindingsFile"
     },
     {
-        "key": "ctrl+.",
-        "command": "workbench.action.openGlobalKeybindings"
-    },
-    {
-        "key": "ctrl+k ctrl+s",
-        "command": "-workbench.action.openGlobalKeybindings"
-    },
-    {
-        "key": "shift+alt+down",
+        "key": "shift+cmd+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+alt+down",
+        "key": "shift+alt+down",
         "command": "-editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+alt+up",
+        "key": "shift+cmd+up",
         "command": "editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+alt+up",
+        "key": "shift+alt+up",
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+c",
-        "command": "workbench.action.terminal.copySelection",
-        "when": "terminalFocus && terminalTextSelected"
+        "key": "shift+cmd+w",
+        "command": "workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
     },
     {
-        "key": "ctrl+v",
-        "command": "workbench.action.terminal.paste",
-        "when": "terminalFocus"
+        "key": "cmd+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "cmd+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
