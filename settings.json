@@ -61,8 +61,11 @@
     "editor.fontSize": 16,
 
     // Language Settings
+    "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "[go]": { "editor.defaultFormatter": "golang.go" },
+    "svelte.enable-ts-plugin": true,
 
     // Icon Theme
     "material-icon-theme.folders.theme": "classic",
