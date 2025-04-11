@@ -14,10 +14,13 @@
     "explorer.confirmDelete": false,
 
     // Files
-    "files.associations": { "*.css": "tailwindcss" },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.php": "php"
+    },
 
     // Breadcrumbs
     "breadcrumbs.enabled": false,
@@ -62,9 +65,14 @@
     "editor.fontSize": 16,
 
     // Language Settings
+    "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "svelte.enable-ts-plugin": true,
+    "php.suggest.basic": false,
+
+    // Intelephense
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedTypes": false,
 
     // Icon Theme
     "material-icon-theme.folders.theme": "classic",
