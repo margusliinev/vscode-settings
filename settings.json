@@ -18,8 +18,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.associations": {
-        "*.css": "tailwindcss",
-        "*.php": "php"
+        "*.css": "tailwindcss"
     },
 
     // Breadcrumbs
@@ -66,6 +65,7 @@
 
     // Language Settings
     "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
+    "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "php.suggest.basic": false,
