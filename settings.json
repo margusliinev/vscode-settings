@@ -64,6 +64,7 @@
     "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
     "php.suggest.basic": false,
 
     // Intelephense
