@@ -8,21 +8,19 @@
     // Extensions
     "extensions.ignoreRecommendations": true,
 
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
+
     // Explorer
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
 
     // Files
+    "files.associations": { "*.css": "tailwindcss" },
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
-    "files.associations": {
-        "*.css": "tailwindcss"
-    },
-
-    // Breadcrumbs
-    "breadcrumbs.enabled": false,
 
     // Workbench
     "workbench.tips.enabled": false,
@@ -58,7 +56,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.multiCursorLimit": 30000,
-    "editor.lineHeight": 1.6,
+    "editor.lineHeight": 1.75,
     "editor.cursorWidth": 2,
     "editor.fontSize": 16,
 
@@ -82,6 +80,9 @@
     "prettier.semi": true,
     "prettier.printWidth": 200,
     "prettier.tabWidth": 4,
+
+    // ESlint
+    "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
 
     // Github Copilot
     "github.copilot.enable": { "*": true }
