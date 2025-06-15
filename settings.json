@@ -16,8 +16,13 @@
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
 
+    // Search
+    "search.exclude": { "**/routeTree.gen.ts": true },
+
     // Files
     "files.associations": { "*.css": "tailwindcss" },
+    "files.watcherExclude": { "**/routeTree.gen.ts": true },
+    "files.readonlyInclude": { "**/routeTree.gen.ts": true },
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
@@ -26,8 +31,8 @@
     "workbench.tips.enabled": false,
     "workbench.statusBar.visible": false,
     "workbench.editor.enablePreview": false,
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.empty.hint": "hidden",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
     "workbench.reduceMotion": "on",
@@ -46,7 +51,9 @@
     "editor.lightbulb.enabled": "off",
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "solid",
+    "editor.wordWrap": "on",
     "editor.quickSuggestions": { "strings": true },
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderControlCharacters": false,
     "editor.stickyScroll.enabled": false,
     "editor.guides.indentation": false,
@@ -61,15 +68,8 @@
     "editor.fontSize": 16,
 
     // Language Settings
-    "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "svelte.enable-ts-plugin": true,
-    "php.suggest.basic": false,
-
-    // Intelephense
-    "intelephense.diagnostics.undefinedMethods": false,
-    "intelephense.diagnostics.undefinedTypes": false,
 
     // Icon Theme
     "material-icon-theme.folders.theme": "classic",
