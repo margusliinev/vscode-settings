@@ -20,19 +20,19 @@
     "search.exclude": { "**/routeTree.gen.ts": true },
 
     // Files
-    "files.associations": { "*.css": "tailwindcss" },
-    "files.watcherExclude": { "**/routeTree.gen.ts": true },
     "files.readonlyInclude": { "**/routeTree.gen.ts": true },
+    "files.watcherExclude": { "**/routeTree.gen.ts": true },
+    "files.associations": { "*.css": "tailwindcss" },
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
 
     // Workbench
     "workbench.tips.enabled": false,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
     "workbench.reduceMotion": "on",
@@ -52,6 +52,7 @@
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
+    "editor.unicodeHighlight.allowedCharacters": { "‑": true, "–": true, "’": true },
     "editor.quickSuggestions": { "strings": true },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderControlCharacters": false,
@@ -72,7 +73,7 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
 
     // Icon Theme
-    "material-icon-theme.folders.theme": "classic",
+    "vsicons.presets.foldersAllDefaultIcon": true,
 
     // Prettier
     "prettier.trailingComma": "all",
