@@ -16,12 +16,7 @@
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
 
-    // Search
-    "search.exclude": { "**/routeTree.gen.ts": true },
-
     // Files
-    "files.readonlyInclude": { "**/routeTree.gen.ts": true },
-    "files.watcherExclude": { "**/routeTree.gen.ts": true },
     "files.associations": { "*.css": "tailwindcss" },
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
