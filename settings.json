@@ -17,17 +17,18 @@
     "explorer.compactFolders": false,
 
     // Files
-    "files.associations": { "*.css": "tailwindcss" },
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
 
     // Workbench
+    "workbench.tree.indent": 16,
     "workbench.tips.enabled": false,
     "workbench.statusBar.visible": true,
     "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.empty.hint": "hidden",
-    "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
     "workbench.reduceMotion": "on",
@@ -47,7 +48,7 @@
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
-    "editor.unicodeHighlight.allowedCharacters": { "‑": true, "–": true, "’": true },
+    "editor.unicodeHighlight.allowedCharacters": { "–": true, "‑": true, "’": true },
     "editor.quickSuggestions": { "strings": true },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderControlCharacters": false,
@@ -66,9 +67,10 @@
     // Language Settings
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
 
-    // Icon Theme
-    "vsicons.presets.foldersAllDefaultIcon": true,
+    // Material Icon Theme
+    "material-icon-theme.folders.theme": "classic",
 
     // Prettier
     "prettier.trailingComma": "all",
