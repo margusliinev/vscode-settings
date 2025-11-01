@@ -26,6 +26,7 @@
     "workbench.tips.enabled": false,
     "workbench.statusBar.visible": true,
     "workbench.editor.enablePreview": false,
+    "workbench.activityBar.orientation": "vertical",
     "workbench.colorTheme": "Default Dark Modern",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.empty.hint": "hidden",
@@ -41,6 +42,7 @@
     "terminal.integrated.fontSize": 16,
 
     // Editor
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "JetBrains Mono",
     "editor.renderLineHighlight": "none",
@@ -82,6 +84,7 @@
 
     // ESlint
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
+    "eslint.validate": ["javascript", "typescript", "svelte"],
 
     // Github Copilot
     "github.copilot.enable": { "*": true }
