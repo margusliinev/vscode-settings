@@ -1,0 +1,93 @@
+{
+    // Window
+    "window.confirmSaveUntitledWorkspace": false,
+
+    // Security
+    "security.workspace.trust.enabled": true,
+
+    // Extensions
+    "extensions.ignoreRecommendations": true,
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
+
+    // Explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+
+    // Files
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+
+    // Workbench
+    "workbench.tree.indent": 14,
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
+    "workbench.reduceMotion": "on",
+
+    // Terminal
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.fontSize": 14,
+
+    // Editor
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.renderLineHighlight": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.renderWhitespace": "none",
+    "editor.cursorBlinking": "solid",
+    "editor.wordWrap": "on",
+    "editor.unicodeHighlight.allowedCharacters": { "–": true, "‑": true, "’": true },
+    "editor.quickSuggestions": { "strings": true },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.renderControlCharacters": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.guides.indentation": false,
+    "editor.minimap.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.multiCursorLimit": 30000,
+    "editor.lineHeight": 1.75,
+    "editor.cursorWidth": 2,
+    "editor.fontSize": 14,
+
+    // Language Settings
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
+
+    // Material Icon Theme
+    "material-icon-theme.folders.theme": "classic",
+
+    // Prettier
+    "prettier.trailingComma": "all",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.semi": true,
+    "prettier.printWidth": 200,
+    "prettier.tabWidth": 4,
+
+    // ESlint
+    "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
+    "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "svelte"],
+
+    // Copilot
+    "github.copilot.enable": { "*": true },
+
+    // Copilot Chat
+    "chat.agentSessionsViewLocation": "single-view"
+}
