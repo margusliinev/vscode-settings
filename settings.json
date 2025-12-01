@@ -42,7 +42,7 @@
 
     // Editor
     "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "prettier.prettier-vscode",
     "editor.fontFamily": "JetBrains Mono",
     "editor.renderLineHighlight": "none",
     "editor.lightbulb.enabled": "off",
@@ -87,7 +87,10 @@
 
     // Copilot
     "github.copilot.enable": { "*": true },
+    "github.copilot.nextEditSuggestions.enabled": true,
 
     // Copilot Chat
-    "chat.agentSessionsViewLocation": "single-view"
+    "chat.agentSessionsViewLocation": "single-view",
+    "chat.extensionUnification.enabled": true,
+    "chat.mcp.gallery.enabled": true
 }
