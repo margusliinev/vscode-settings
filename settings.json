@@ -42,7 +42,7 @@
 
     // Editor
     "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
-    "editor.defaultFormatter": "prettier.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "JetBrains Mono",
     "editor.renderLineHighlight": "none",
     "editor.lightbulb.enabled": "off",
@@ -78,12 +78,8 @@
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.semi": true,
-    "prettier.printWidth": 200,
+    "prettier.printWidth": 140,
     "prettier.tabWidth": 4,
-
-    // ESlint
-    "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-    "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "svelte"],
 
     // Copilot
     "github.copilot.enable": { "*": true },
