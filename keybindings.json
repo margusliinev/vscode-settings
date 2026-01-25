@@ -88,10 +88,6 @@
         "command": "-workbench.action.toggleAuxiliaryBar"
     },
     {
-        "key": "cmd+l",
-        "command": "workbench.action.toggleAuxiliaryBar"
-    },
-    {
         "key": "cmd+w",
         "command": "-workbench.action.closeWindow",
         "when": "!editorIsOpen && !multipleEditorGroups"
@@ -116,6 +112,10 @@
     {
         "key": "cmd+.",
         "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.toggleAuxiliaryBar"
     },
     {
         "key": "cmd+l",
