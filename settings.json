@@ -8,6 +8,7 @@
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
 
+    "files.associations": { "*.css": "tailwindcss", "wrangler.json": "jsonc" },
     "files.readonlyInclude": { "**/routeTree.gen.ts": true },
     "files.watcherExclude": { "**/routeTree.gen.ts": true },
     "files.trimTrailingWhitespace": true,
@@ -39,7 +40,6 @@
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
-
     "editor.unicodeHighlight.allowedCharacters": { "–": true, "‑": true, "’": true },
     "editor.quickSuggestions": { "strings": true },
     "editor.acceptSuggestionOnCommitCharacter": false,
@@ -51,7 +51,6 @@
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-
     "editor.multiCursorLimit": 30000,
     "editor.lineHeight": 1.75,
     "editor.cursorWidth": 2,
@@ -60,25 +59,19 @@
     "typescript.preferences.preferTypeOnlyAutoImports": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "svelte.enable-ts-plugin": true,
 
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.dontShowNewVersionMessage": true,
 
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-    "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "svelte"],
+    "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
 
-    "prettier.trailingComma": "all",
+    "prettier.trailingComma": "none",
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.semi": true,
     "prettier.printWidth": 140,
     "prettier.tabWidth": 4,
-
-    "chat.extensionUnification.enabled": true,
-    "chat.viewSessions.enabled": false,
-    "chat.mcp.gallery.enabled": true,
-    "chat.useAgentSkills": true,
 
     "github.copilot.enable": { "*": true }
 }
