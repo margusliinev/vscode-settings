@@ -8,9 +8,10 @@
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
 
-    "files.associations": { "*.css": "tailwindcss", "wrangler.json": "jsonc" },
-    "files.readonlyInclude": { "**/routeTree.gen.ts": true },
+    "search.exclude": { "**/routeTree.gen.ts": true },
     "files.watcherExclude": { "**/routeTree.gen.ts": true },
+    "files.readonlyInclude": { "**/routeTree.gen.ts": true },
+    "files.associations": { "*.css": "tailwindcss" },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -19,7 +20,7 @@
     "workbench.tips.enabled": false,
     "workbench.statusBar.visible": true,
     "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Dark Modern",
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.empty.hint": "hidden",
     "workbench.settings.editor": "json",
@@ -40,7 +41,7 @@
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
-    "editor.unicodeHighlight.allowedCharacters": { "–": true, "‑": true, "’": true },
+    "editor.unicodeHighlight.allowedCharacters": { "‑": true, "–": true, "’": true },
     "editor.quickSuggestions": { "strings": true },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderControlCharacters": false,
@@ -56,15 +57,16 @@
     "editor.cursorWidth": 2,
     "editor.fontSize": 14,
 
-    "typescript.preferences.preferTypeOnlyAutoImports": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
+    "js/ts.preferences.preferTypeOnlyAutoImports": true,
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "js/ts.experimental.useTsgo": true,
+    "svelte.enable-ts-plugin": true,
 
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.dontShowNewVersionMessage": true,
 
     "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-    "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
+    "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "svelte"],
 
     "prettier.trailingComma": "none",
     "prettier.jsxSingleQuote": true,
@@ -73,5 +75,6 @@
     "prettier.printWidth": 140,
     "prettier.tabWidth": 4,
 
+    "chat.mcp.gallery.enabled": true,
     "github.copilot.enable": { "*": true }
 }
