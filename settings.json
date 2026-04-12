@@ -8,10 +8,6 @@
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
 
-    "search.exclude": { "**/routeTree.gen.ts": true },
-    "files.watcherExclude": { "**/routeTree.gen.ts": true },
-    "files.readonlyInclude": { "**/routeTree.gen.ts": true },
-    "files.associations": { "*.css": "tailwindcss" },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -59,7 +55,6 @@
 
     "js/ts.preferences.preferTypeOnlyAutoImports": true,
     "js/ts.updateImportsOnFileMove.enabled": "always",
-    "js/ts.experimental.useTsgo": true,
     "svelte.enable-ts-plugin": true,
 
     "vsicons.presets.foldersAllDefaultIcon": true,
@@ -75,6 +70,6 @@
     "prettier.printWidth": 140,
     "prettier.tabWidth": 4,
 
-    "chat.mcp.gallery.enabled": true,
-    "github.copilot.enable": { "*": true }
+    "chat.tips.enabled": false,
+    "chat.disableAIFeatures": true
 }
