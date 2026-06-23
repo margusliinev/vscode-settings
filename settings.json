@@ -71,5 +71,6 @@
     "prettier.tabWidth": 4,
 
     "chat.tips.enabled": false,
-    "chat.viewSessions.enabled": false
+    "chat.viewSessions.enabled": false,
+    "chat.disableAIFeatures": true
 }
