@@ -38,7 +38,6 @@
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
     "editor.unicodeHighlight.allowedCharacters": { "‑": true, "–": true, "’": true },
-    "editor.quickSuggestions": { "strings": true },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.renderControlCharacters": false,
     "editor.stickyScroll.enabled": false,
